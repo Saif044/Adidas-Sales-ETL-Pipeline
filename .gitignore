@@ -9,10 +9,14 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
+
+# Ignore Astro/Airflow local folders
 include/
 tests/
 .astro/
 plugins/
+
+# Keep the repo clean of logs and caches
 logs/
 dags/__pycache__/
 dags/exampledag.py
