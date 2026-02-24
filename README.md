@@ -27,7 +27,7 @@ The pipeline automates a three-stage **ETL** process:
 ├── dags/
 │   └── adidas_etl_pipeline.py    # Main Airflow DAG and cleaning logic
 ├── sql/
-│   └── schema.sql                # Table definitions (Raw vs. Summary)
+│   └── adidas_sales.sql          # Table definitions (Raw vs. Summary)
 ├── Dockerfile                    # Image build with Postgres providers
 ├── requirements.txt              # Python dependencies (pandas, etc.)
 ├── .gitignore                    # Excludes local logs and secrets
