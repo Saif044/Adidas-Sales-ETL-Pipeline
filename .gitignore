@@ -9,3 +9,15 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
+include/
+tests/
+.astro/
+plugins/
+logs/
+dags/__pycache__/
+dags/exampledag.py
+dags/exampledag.py
+
+
+
+

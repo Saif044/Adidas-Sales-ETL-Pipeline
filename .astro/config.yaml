@@ -1,5 +1,0 @@
-project:
-    name: my-airflow-project
-
-postgres:
-  port: 5435
